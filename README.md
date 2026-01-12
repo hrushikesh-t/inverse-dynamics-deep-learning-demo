@@ -9,6 +9,17 @@ Such models are widely used in robotics, control systems, and embodied AI to ena
 This project presents a deep learning–based approach to inverse dynamics using convolutional neural networks (CNNs). 
 The notebook walks through data preparation, baseline evaluation, model training, and prediction analysis to demonstrate 
 how neural networks can learn complex state–action relationships.
+## Dataset
+
+This project uses data derived from the EPIC-KITCHENS dataset, a large-scale egocentric video 
+dataset commonly used for research in action understanding, robotics, and embodied AI.
+
+The dataset provides sequences representing observed states and corresponding actions, which 
+are suitable for learning inverse dynamics relationships. In this project, the data is used to:
+- Establish baseline (pre-learning) behavior
+- Train deep learning models on state–action mappings
+- Evaluate prediction quality before and after training
+
 ## Methodology
 
 The notebook explores multiple deep learning architectures to model inverse dynamics and 
