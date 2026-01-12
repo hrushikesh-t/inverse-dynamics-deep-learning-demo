@@ -9,3 +9,23 @@ Such models are widely used in robotics, control systems, and embodied AI to ena
 This project presents a deep learning–based approach to inverse dynamics using convolutional neural networks (CNNs). 
 The notebook walks through data preparation, baseline evaluation, model training, and prediction analysis to demonstrate 
 how neural networks can learn complex state–action relationships.
+## Methodology
+
+The notebook explores multiple deep learning architectures to model inverse dynamics and 
+compare their learning behavior and predictive performance.
+
+### Models Implemented
+- **Baseline Model:**  
+  Used to evaluate system behavior before learning and establish a reference performance level.
+
+- **Convolutional Neural Network (CNN) Model 1:**  
+  A CNN-based inverse dynamics model trained to learn the mapping between system states and 
+  required control actions.
+
+- **Convolutional Neural Network (CNN) Model 2:**  
+  A modified CNN architecture designed to compare performance and stability against the first model.
+
+### Training & Evaluation
+- Data split into training and testing sets
+- Model performance evaluated before and after training
+- Predictions analyzed to assess how well each model captured system dynamics
